@@ -59,6 +59,8 @@ For more information on the Scanner class and how it's used visit: https://www.w
 
 Exactly the same as C++. Only Java has the shift arithmetic operators (<<, >>).
 
+To learn more about Java arithmetic operators visit: https://www.w3schools.com/java/java_operators.asp
+
 ## Your program
 
 **The Magic Number Calculator**
