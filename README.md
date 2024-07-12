@@ -61,6 +61,8 @@ Exactly the same as C++. Only Java has the shift arithmetic operators (<<, >>).
 
 ## Your program
 
+**The Magic Number Calculator**
+
 Calculate a person's magic number using arithmetic operations in Java. A person's magic number is calculated by multiplying the month of their birth by the year of their birth, and taking the modulus of that result and the day of their birth. The equation is:
 
 **magicNumber = (birthMonth * birthYear) % birthDay**
