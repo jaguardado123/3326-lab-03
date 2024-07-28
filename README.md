@@ -1,6 +1,6 @@
 # Lab Assignment 03
 
-In this lab you will practice writing Java code to input user data and use simple arithmetic.
+In this lab you will practice writing Java code to **get user input** and **perform simple arithmetic**.
 
 Same as Lab Assignment 01 and 02, you need to set up your workspace (class and main() method).
 
@@ -27,8 +27,8 @@ Next, you must create a Scanner object inside of your main() method. This object
 Creating an object in Java is done the same as in C++.
 
 ```java
-		// Inside main() method.
-		Scanner scanner = new Scanner(System.in);
+// Inside main() method.
+Scanner scanner = new Scanner(System.in);
 ```
 
 But how do we user the scanner object to get user input?
@@ -49,9 +49,9 @@ Scanner has many built-in methods to read user input depending on the type of da
 The code snippet below shows how to input a float from the user.
 
 ```java
-		// Inside main() method.
-		float num;
-		num = scanner.nextFloat();
+// Inside main() method.
+float num;
+num = scanner.nextFloat();
 ```
 
 For more information on the Scanner class and how it's used visit: https://www.w3schools.com/java/java_user_input.asp
