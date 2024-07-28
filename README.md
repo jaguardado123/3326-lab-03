@@ -68,7 +68,7 @@ To learn more about Java arithmetic operators visit: https://www.w3schools.com/j
 
 Calculate a person's magic number using arithmetic operations in Java. A person's magic number is calculated by multiplying the month of their birth by the year of their birth, and taking the modulus of that result and the day of their birth. The equation is:
 
-**magic_number = (birth_month * birth_year) % birth_day**
+&emsp;**magic_number = (birth_month * birth_year) % birth_day**
 
 Write a program that will ask the user for their name, month of birth, day of birth, and year of birth and then output their magic number.
 
