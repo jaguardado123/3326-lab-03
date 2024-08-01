@@ -1,6 +1,6 @@
 # Lab Assignment 03
 
-In this lab you will practice writing Java code to **get user input** and **perform simple arithmetic**.
+In this lab you will practice writing Java code to **perform simple arithmetic**.
 
 Same as Lab Assignment 01 and 02, you need to set up your workspace (class and main() method).
 
@@ -12,53 +12,28 @@ Next, **create your main() method inside your class**. It should be the same as 
 
 Now let the fun begin!
 
-### Getting user input
-
-To get user input in Java you must first import the **Scanner** class from the `java.util` package. Importing packages in Java must be done at the start of your code.
-
-```java
-import java.util.Scanner;
-
-// Your code should start here.
-```
-
-Next, you must create a Scanner object inside of your main() method. This object will be used to get all of your user input regardless of their data type.
-
-Creating an object in Java is done the same as in C++.
-
-```java
-// Inside main() method.
-Scanner scanner = new Scanner(System.in);
-```
-
-But how do we user the scanner object to get user input?
-
-Scanner has many built-in methods to read user input depending on the type of data we're expecting (ex: String, int, double, etc.).
-
-| **Method** | **Description** |
-| ---- | ---- |
-| next() | Reads a `String` value **without spaces** from the user |
-| nextLine() | Reads a `String` value from the user |
-| nextByte() | Reads a `byte` value from the user |
-| nextShort() | Reads a `short` value from the user |
-| nextInt() | Reads an `int` value from the user |
-| nextFloat() | Reads a `float` value from the user |
-| nextDouble() | Reads a `double` value from the user |
-| nextBoolean() | Reads a `boolean` value from the user |
-
-The code snippet below shows how to input a float from the user.
-
-```java
-// Inside main() method.
-float num;
-num = scanner.nextFloat();
-```
-
-For more information on the Scanner class and how it's used visit: https://www.w3schools.com/java/java_user_input.asp
-
 ### Arithmetic operations
 
 Exactly the same as C++. Only Java has the shift arithmetic operators (<<, >>).
+
+Arithmetic operators **return a numeric value**.
+
+| Operator | Description |
+| --- | --- |
+| `+` | Adds values together |
+| `-` | Subtracts right value from left value |
+| `*` | Multiplies values together |
+| `/` | Divides right value by left value |
+| `%` | Returns the remainder of division |
+| `++` | Increments value by `1` |
+| `--` | Decrements value by `1` |
+
+Arithmetic operations follow the **PEMDAS** order of operations:
+
+1. Parenthesis
+2. Exponents
+3. Multiplication & Division
+5. Addision & Subtraction
 
 To learn more about Java arithmetic operators visit: https://www.w3schools.com/java/java_operators.asp
 
@@ -66,11 +41,13 @@ To learn more about Java arithmetic operators visit: https://www.w3schools.com/j
 
 ### Magic Number Calculator
 
-Calculate a person's magic number using arithmetic operations in Java. A person's magic number is calculated by multiplying the month of their birth by the year of their birth, and taking the modulus of that result and the day of their birth. The equation is:
+Calculate a person's Magic Number using arithmetic operations in Java. 
 
-&emsp;**$magicNumber = (birthMonth * birthYear)$ % $birthDay$**
+A person's `magic_number` is calculated by getting the remainder of dividing the result of multiplying their `birth_month` by their `birth_year`, by their `birth_day`. The equation is:
 
-Write a program that will ask the user for their name, month of birth, day of birth, and year of birth and then output their magic number.
+&emsp;**$Magic$ $Number = (Birth$ $Month$ x $Birth$ $Year)$ % $Birth$ $Day$**
+
+Write a program that will prompt the user for their name and date of birth (DOB), then output their magic number.
 
 **Expected output:**
 
