@@ -47,7 +47,7 @@ A person's `magic_number` is calculated by getting the remainder of dividing the
 
 &emsp;**$Magic$ $Number = (Birth$ $Month$ x $Birth$ $Year)$ % $Birth$ $Day$**
 
-Write a program that will prompt the user for their name and date of birth (DOB), then output their magic number.
+Write a program that will prompt the user to input their date of birth (DOB), next calculate and output their magic number.
 
 **Expected output:**
 
