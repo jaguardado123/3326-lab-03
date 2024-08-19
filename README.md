@@ -68,7 +68,7 @@ Bob then performs the following transactions:
 
 5. Bob **deposited** his paycheck that doubled his current balance.
 
-6. Bob **withdrew** $`1`.
+6. Bob **deposited** $`1`.
 
 Output Bob's new balance after all of his transactions.
 
