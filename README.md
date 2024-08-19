@@ -35,23 +35,42 @@ Arithmetic operations follow the **PEMDAS** order of operations:
 3. Multiplication & Division
 5. Addision & Subtraction
 
+### Assignment Operators
+
+Also, exactly the same as C++. For arithmetic assignment operators, the variable `x` must have a value previously assigned to it.
+
+| Operator | Example | Same As |
+| --- | --- | --- |
+| `=` | `x = 5` | `x = 5` |
+| `+=` | `x += 5` | `x = x + 5` |
+| `-=` | `x -= 5` | `x = x - 5` |
+| `*=` | `x *= 5` | `x = x * 5` |
+| `/=` | `x /= 5` | `x = x / 5` |
+| `%=` | `x %= 5` | `x = x % 5` |
+
 To learn more about Java arithmetic operators visit: https://www.w3schools.com/java/java_operators.asp
 
 ## Your Assignment
 
-### Magic Number Calculator
+### Bank Account
 
-Calculate a person's Magic Number using arithmetic operations in Java. 
+Bob has a checking acount with Texas Bank with a starting balance of $`2175.37`.
 
-A person's `magic_number` is calculated by getting the remainder of dividing the result of multiplying their `birth_month` by their `birth_year`, by their `birth_day`. The equation is:
+Bob then performs the following transactions:
 
-&emsp;**$Magic$ $Number = (Birth$ $Month$ x $Birth$ $Year)$ % $Birth$ $Day$**
+1. Bob **withdrew** $`302.50`.
 
-Write a program that will prompt the user to input their date of birth (DOB), next calculate and output their magic number.
+2. Bob **diposited** $`50.03`.
 
-**Expected output:**
+3. Bob **withdrew** half of his current balance, then **deposited** $`20.00`.
 
-<img src="img/lab3-expected.png" width="400px">
+4. Bob **withdrew** $`1`.
+
+5. Bob **deposited** his paycheck that doubled his current balance.
+
+6. Bob **withdrew** $`1`.
+
+Output Bob's new balance after all of his transactions.
 
 ## Submit your assignment
 
