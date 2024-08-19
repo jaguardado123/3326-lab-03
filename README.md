@@ -60,7 +60,7 @@ Bob then performs the following transactions:
 
 1. Bob **withdrew** $`302.50`.
 
-2. Bob **diposited** $`50.03`.
+2. Bob **deposited** $`50.03`.
 
 3. Bob **withdrew** half of his current balance, then **deposited** $`20.00`.
 
