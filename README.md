@@ -1,4 +1,4 @@
-# Lab Assignment 03
+# Lab 03
 
 In this lab you will practice writing Java code to **perform simple arithmetic**.
 
@@ -72,8 +72,14 @@ Bob then performs the following transactions:
 
 Output Bob's new balance after all of his transactions.
 
-## Submit your assignment
+<br>
 
-[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_03.pdf)
+**Grading Criteria:**
+| Criteria | Points |
+|---|---|
+| Output correct end balance of 1961.90 | 60 |
+| Output balance is displayed to the hundredth decimal place | 10 |
+| File and class are named BankAccount | 20 |
+| Class is public | 10 |
 
 [How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
